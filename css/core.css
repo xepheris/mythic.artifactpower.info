@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* FONTS */
+@font-face { 
+	font-family: "R-Regular"; 
+	src: url("../font/Roboto-Regular.ttf"); 
+}
+
+@font-face {
+	font-family: "R-Thin";
+	src: url("../font/Roboto-Thin.ttf");
+}
+
+@font-face {
+	font-family: "R-Bold";
+	src: url("../font/Roboto-Bold.ttf");
+}
+
+@font-face {
+	font-family: "R-Italic";
+	src: url("../font/Roboto-Italic.ttf");
+}
+
+@font-face {
+	font-family: "R-CondReg";
+	src: url("../font/RobotoCondensed-Regular.ttf");
+}
+
+.thin {
+	font-family: "R-Thin";
+}
+
+.bold {
+	font-family: "R-Bold";
+}
+
+.ita {
+	font-family: "R-Italic";
+}
+
+.head {
+	font-family: "R-CondReg";
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.thin, .bold, .ita, .head {
+	color: #C0B283;
+}
+
+body {
+	margin: 0px;
+	background-color: #373737;
+	font-family: "R-Regular";
+	color: #DCD0C0;
+	font-size: 18px;
+}
+
+
+#login {
+	margin: 0 auto;
+	width: 150px;
+}
+
+#core {
+	margin: 0 auto;
+	width: auto;
+}
+
+#t, table {
+	display: table;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+thead {
+	background: grey;
+	border-collapse: collapse;
+}
+
+#td, td {
+	display: table-cell;
+	text-align: left;
+	padding: 10px 10px;
+	vertical-align: middle;
+	border-collapse: collapse;
+}
+
+#tr, tr {
+	display: table-row;
+	border-collapse: collapse;
+}
+
+#tr:nth-child(2n+1), tr {
+	display: table-row;
+	border-collapse: collapse;
+}
+
+a:visited, a:link {
+	color: #F4F4F4;
+	text-decoration: none;
+}
+
+#error {
+	color: red;
+	text-align: center;
+}
